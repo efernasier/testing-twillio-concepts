@@ -1,0 +1,7 @@
+version: '3'
+services:
+  twilio-cli:
+    image: twilio/twilio-cli
+    command: bash
+    tty: true
+    stdin_open: true
